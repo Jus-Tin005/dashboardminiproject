@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+
+* {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+
+
+        height: 100vh;
+        /* background-color: green; */
+        /* background-image: linear-gradient(45deg,black,grey,rgba(101,191,198,.8),orange); */
+        /* background: url(../assets/img/jt.JPG); */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-blend-mode: exclusion;
+        text-align: justify;
+        padding-left: 250px;
+        padding-right: 30px;
+        font-size: 20px;
+
+        /* background-position: -90% -50%; */
+}
+
+/* for side bar profile  */
+
+.wrappers .sidebars {
+        width: 225px;
+        height: 100%;
+        background: rgb(100, 100, 100);
+        color: #fff;
+        padding: 20px 0;
+
+        position: fixed;
+        left: 0;
+        top: 0;
+}
+
+.wrappers .sidebars .profiles {
+       margin: 5px 10px;
+       border-radius: 50%;
+}
+
+.sidebars ul li a {
+        text-decoration: none;
+        display:block;
+        border-bottom: 1px solid #fff;
+        color: rgba(241, 237, 237, .8);
+        font-size: 18px;
+        padding: 5px 15px;
+}
+
+.sidebars ul li a:hover {
+        background-color: #dee4ec;
+        color: brown;
+        border-right: 2px solid rgba(177, 26, 26, 0.8);
+
+}
+
+.sidebars a .icon {
+        display: inline-block;
+        width: 30px;
+        color: #dee4ec;
+}
+
+/* for main feed  */
+
+.main {
+        max-width: 100%;
+        margin: 5px;
+}
+
+
+
+/* for sign in form  */
+
+
+
+
+.container {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        padding: 20px;
+
+}
+
+
+/* in div1 and div2, two float: left; are separatin to left side altogether */
+.div1{
+        width: 25%;
+        float: left;
+        margin-top: 4px;
+}
+
+ .div2 {
+        width: 75%;
+}
+
+.row::after{
+        content: '';
+        display: table;
+        clear: both;
+}
+
+.row label {
+        display: inline-block;
+        padding:5px 5px 5px 0;
+}
+
+input[type=text],[type=password],select,textarea {
+        width: 100%;
+        border: 0;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+        resize: none;
+}
+
+input[type=submit] {
+        width: 16%;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        float: right;
+        padding: 12px 20px;
+        cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+        background-color: brown;
+}
+
